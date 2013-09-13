@@ -1,0 +1,336 @@
+
+body
+{
+	font-family: "calibri", "segoe ui", Arial, sans;
+	font-size: 11pt;
+	background: #E9F4F9 url(/img/bg.png) repeat-x fixed top;
+	text-align: center;
+	color: #424242;
+	margin: 0;
+}
+.Clear
+{
+	clear: both;
+}
+
+.Red { color: Red;}
+
+input, textarea
+{
+	font-family: inherit; font-size: inherit;
+}
+
+.Sep
+{
+	font-size:16px;
+	height: 16px;
+	overflow: hidden;
+}
+
+.Line
+{
+	height: 1px;
+	font-size: 1px;
+	background: #777;
+	overflow: hidden;
+}
+
+.Wrapper
+{
+	width: 816px;
+	margin: 0 auto;
+	background: white;
+	text-align: left;
+}
+
+.Pad
+{
+	padding: 10px;
+}
+
+
+.Job
+{
+	overflow: hidden;
+}
+.Job.Even
+{
+	background: #E3F1FF;
+}
+.Job.Even.Completed
+{
+	background: #fafafa;
+}
+.Job:hover
+{
+	background: #FFFFCC !important;
+	cursor: pointer;
+	color: inherit;
+}
+div.Job.Highlight
+{
+	background: #A9D6FF !important;
+}
+
+
+.JobPriority
+{
+	float: left;
+	width: 45px;
+	height: 20px;
+	display: block;
+	text-align: center;
+	font-size: 17px;
+	
+}
+.JobDue
+{
+	float: left;
+	width: 155px;
+	padding-left: 10px;
+}
+.JobTimeRemaining
+{
+	float: left;
+	width: 135px;
+	padding-left: 10px;
+}
+.JobMain
+{
+	float: left;
+	width: 455px;
+	padding-left: 5px;
+}
+
+.JobTitle
+{
+	float: left;
+}
+
+.Completed .JobTitle
+{
+	color: #a0a0a0;
+	text-decoration: line-through;
+	font-style: italic;
+}		
+
+.JobDescription
+{
+	padding: 5px; font-size: 9pt; color: #666;
+	display: none;
+}
+
+
+
+.Header
+{
+	background: #FFFFD0 url(/img/header_bg.png) repeat-x top;
+	color: #777;
+	border-bottom: 1px solid #F6EBA2;
+}
+
+
+
+.Completed .JobPriority
+{
+	background: transparent;
+	color: #cccccc;
+}
+
+
+.Priority1
+{
+	background: #13FF56;
+	color: black;
+}
+.Priority2
+{
+	background: #13F268;
+	color: black;
+}
+.Priority3
+{
+	background: #12D88B;
+	color: black;
+}
+.Priority4
+{
+	background: #12C5A4;
+	color: white;
+}
+.Priority5
+{
+	background: #11B1BF;
+	color: white;
+}
+.Priority6
+{
+	background: #1083FC;
+	color: white;
+}
+.Priority7
+{
+	background: #5843D5;
+	color: white;
+}
+.Priority8
+{
+	background: #A343D5;
+	color: white;
+	font-weight: bold;
+}
+.Priority9
+{
+	background: #D543BB;
+	color: white;
+	font-weight: bold;
+}
+.Priority10
+{
+	background: #FF4040;
+	color: white;
+	font-weight: bold;
+}
+
+
+
+.Heading
+{
+	font-size: 18pt; 
+	color: #317FF5;
+}
+
+.Subheading
+{
+	font-size: 15pt; 
+	color: #6CA4F8;
+}
+
+.Heading b, .Subheading b
+{
+	color: #3F88F5;
+}
+
+
+#EditArea
+{
+	background: #eee url(/img/edit_bg.png) repeat-x top;
+	display: none;
+	border-top: 1px solid #cccccc;
+}
+#EditArea td
+{
+	padding: 3px;
+	padding-right: 24px;
+}
+
+
+#Note
+{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 10px;
+	background: black;
+	color: white;
+	font-size: 14pt;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	opacity: .6;
+	display: none;
+}
+
+
+#PickPriority span
+{
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+#PickPriority span.Active
+{
+
+	border-bottom: 5px solid black !important;
+}
+
+#PickPriority span:hover
+{
+	border-bottom: 2px solid black;
+}
+
+#PriorityNote
+{
+	color: #999999;
+	font-style: italic;
+}
+
+.TaskLink
+{
+	color: black;
+	font-weight: bold;
+}
+.TaskTool
+{
+	font-size: 80%;
+}
+
+
+
+.Block
+{
+	background: transparent url(/img/blocks.gif) no-repeat 0px 0px;
+	
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+}
+.Block.YellowIndent
+{
+	background-position: -20px 0px;
+}
+.Block.OrangeIndent
+{
+	background-position: -40px 0px;
+}
+.Block.RedIndent
+{
+	background-position: -60px 0px;
+}
+.Block.EmptyEC
+{
+	background-position: -80px 0px;
+}
+.Block.ExpandableEC
+{
+	background-position: -100px 0px;
+}
+.Block.ExpandableEC:hover
+{
+	background-position: -100px -20px;
+}
+.Block.CollapsableEC
+{
+	background-position: -120px 0px;
+}
+.Block.CollapsableEC:hover
+{
+	background-position: -120px -20px;
+}
+.Block.JobDone
+{
+	background-position: -140px 0px;
+}
+.Block.JobDone:hover
+{
+	background-position: -140px -20px;
+}
+.Completed .Block.JobDone
+{
+	background-position: -160px 0px;
+}
+.Completed .Block.JobDone:hover
+{
+	background-position: -160px -20px;
+}

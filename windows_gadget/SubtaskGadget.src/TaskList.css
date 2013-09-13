@@ -1,0 +1,115 @@
+﻿body 
+{
+	margin: 0;
+	padding: 0;
+	width: 160px;
+	height: 240px;
+    border: 1px solid #57585A;
+    background: #2E384D;
+    color: #FFF;
+	
+	font-family: Tahoma;
+	font-size: 8pt;
+	
+}
+
+.heading {
+	padding: 3px;
+	background: #303848 url(heading_bg.png) repeat-x top;
+	color: #AAABAC;
+    
+	border-bottom: 1px dotted #3B4458;
+}
+#note 
+{
+	background: #E11575;
+	color: White;
+	padding: 1px;
+
+	border-bottom: 1px dotted #91054A;
+}
+.task 
+{
+	padding: 2px;
+	border-bottom: 1px dotted #3B4458;
+	background: url(taskbg.png);
+}
+.task:hover
+{
+	border-bottom: 1px dotted #616A7E;
+	background: #464D62;
+	cursor: pointer;
+}
+.clear
+{
+	clear:both;
+}
+.taskinfo
+{
+	text-align: right;
+	color: #67788A;
+	font-size: 7pt;
+}
+
+#tasklist 
+{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+
+
+.Priority1
+{
+	background: #13FF56;
+	color: black;
+}
+.Priority2
+{
+	background: #13F268;
+	color: black;
+}
+.Priority3
+{
+	background: #12D88B;
+	color: black;
+}
+.Priority4
+{
+	background: #12C5A4;
+	color: white;
+}
+.Priority5
+{
+	background: #11B1BF;
+	color: white;
+}
+.Priority6
+{
+	background: #1083FC;
+	color: white;
+}
+.Priority7
+{
+	background: #5843D5;
+	color: white;
+}
+.Priority8
+{
+	background: #A343D5;
+	color: white;
+	font-weight: bold;
+}
+.Priority9
+{
+	background: #D543BB;
+	color: white;
+	font-weight: bold;
+}
+.Priority10
+{
+	background: #FF4040;
+	color: white;
+	font-weight: bold;
+}

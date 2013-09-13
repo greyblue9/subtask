@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<gadget>
+	<name>Task List Gadget</name>
+	<namespace>TaskList.NS</namespace>
+	<version>1.1</version>
+	<author name="David Reilly">
+		<info url="tasks.d6r.org" />
+	</author>
+	<copyright>2009</copyright>
+	<description>Shows a quick overview of upcoming tasks from SubTask.</description>
+	<hosts>
+		<host name="sidebar">
+			<base type="HTML" apiVersion="1.0.0" src="TaskList.html" mce_src="TaskList.html" />
+			<permissions>full</permissions>
+			<platform minPlatformVersion="0.3" />
+		</host>
+	</hosts>
+</gadget>
+
